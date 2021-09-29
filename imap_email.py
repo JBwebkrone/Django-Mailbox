@@ -3,6 +3,7 @@
 import imaplib
 import email
 
+# It will work for every domain just follow instructions of those domains accordingly
 
 
 ############################### REQUIRED BEFORE EXECUATITION ###################################################
@@ -37,7 +38,7 @@ with imaplib.IMAP4_SSL(_HOST, port=993) as mail:
 
     ############### Display emails ####################
 
-    for email_id in e_list[-2:]:
+    for email_id in e_list[-2:]: #if you want all email than just put [:] instead of [-2:]
         print(f"\n------------------------------ Email +++ {email_id} +++ Started---------------------------")
         response_code, mail_data = mail.fetch(email_id, "(RFC822)")
         message = email.message_from_bytes(mail_data[0][1])
