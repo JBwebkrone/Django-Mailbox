@@ -12,3 +12,6 @@ Implements the actual IMAP4 protocol
 > _EMAIL = "youremail@domain.com" <br>
 > _KEY = "your strong password" <br>
 > _HOST = "imap.domain.com" <br>
+
+
+Please Run <a href="https://github.com/JBwebkrone/IMAP/blob/main/imap_email.py">imap_email.py</a>
