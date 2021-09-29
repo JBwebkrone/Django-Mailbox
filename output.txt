@@ -1,0 +1,44 @@
+
+
+------------------------------ Email +++ 2 +++ Started---------------------------
+
+
+Hey Name!
+
+A sign in attempt requires further verification because we did not recognize your device. To complete the sign in, enter the verification code on the unrecognized device.
+
+Device: Firefox on Window
+Verification code: 675646
+
+If you did not attempt to sign in to your account, your password may be compromised. Visit https://github.com/settings/security to create a new, strong password for your GitHub account.
+
+If you'd like to automatically verify devices in the future, consider enabling two-factor authentication on your account. Visit https://docs.github.com/articles/configuring-two-factor-authentication to learn about two-factor authentication.
+
+If you decide to enable two-factor authentication, ensure you retain access to one or more account recovery methods. See https://docs.github.com/articles/configuring-two-factor-authentication-recovery-methods in the GitHub Help.
+
+Thanks,
+The GitHub Team
+
+
+
+
+From         : GitHub <noreply@github.com>
+To           : JB <*******@gmail.com>
+BCC          : None
+Date         : Tue, 28 Sep 2021 20:59:08 -0700
+Subject      : [GitHub] Please verify your device
+Body... 
+Delivered-To: *******@gmail.com
+Received: by 2002:a17:906:c0d2:0:0:0:0 with SMTP id bn18csp281865ejb;
+        Tue, 28 Sep 2021 20:59:09 -0700 (PDT)
+X-Google-Smtp-Source: ABdhPJy2goUUzkdsaYkRoRPID+dZJiNWqf4VzGdusiuToJ/ot1EMf5xFOlR+AN7927EeogMdqRd4rzE
+X-Received: by 2002:ac8:6646:: with SMTP id j6mr9879s293qtp.149.1632887949061;
+        Tue, 28 Sep 2021 20:59:09 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1632887949; cv=none;
+        d=google.com; s=arc-20160816;
+        b=SYwcBu2vUqo/Sg2vyonYt7X4pvTFSgobcidUvHj7VQ3FjiLrA43hpjAtu6Gheryl1Cz
+         mWyZKzSFSgebVPWL1Oof2SqwyVos5sUaWPyNuMqBxWweSt2sW1F0JNj6Hue/QJxxpg4Os
+         KrUPnElhovzJkR27+z+nWGgDxadZDku4/1RXZB0q5rTTo3U6UamSuH+w3xbu+6EHsr98xW
+         Yn2O/jJo0kb+1tAvh0badscmGFhrtMxpqMGlzr0UYPkMH8IyXgVM6VAkjNW9eiMBdWvJdQZ
+
+----------------------------- Ending +++ 2 +++ ----------------------------------------
