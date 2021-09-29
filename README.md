@@ -15,3 +15,7 @@ Implements the actual IMAP4 protocol
 
 
 Please Run <a href="https://github.com/JBwebkrone/IMAP/blob/main/imap_email.py">imap_email.py</a>
+
+
+# For OUTLOOK you can enable from [here](https://outlook.live.com/mail/0/options/mail/accounts)
+![outlook_IMAP_enable](https://user-images.githubusercontent.com/91453550/135209379-bd8ef9c0-3331-4104-938a-1d6b8ebc1759.png)
