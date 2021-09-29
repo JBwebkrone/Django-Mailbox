@@ -32,6 +32,9 @@ with imaplib.IMAP4_SSL(_HOST, port=993) as mail:
     ############### Retrive emails ####################
 
     response_code, emails = mail.search(None, "ALL")
+    print("=================================================================================================")
+    print("Email zero...", emails)  # [b'1 2 3 4']
+    print("=================================================================================================")
     e_list = emails[0].decode('utf-8').split()
     print("\nEmail ID's... ", e_list)
 
@@ -54,7 +57,7 @@ with imaplib.IMAP4_SSL(_HOST, port=993) as mail:
         for part in message.walk():
             if part.get_content_type() == "text/plain":
                 body_lines = part.as_string().split('\n')
-                print("\n".join(body_lines[:12]))
+                print("\n".join(body_lines[:12])) # it just print first 12 lines of body message to print all use [:]
         
         print(f"----------------------------- Ending +++ {email_id} +++ ----------------------------------------")
 
