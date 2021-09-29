@@ -33,7 +33,7 @@ with imaplib.IMAP4_SSL(_HOST, port=993) as mail:
 
 	response_code, emails = mail.search(None, "ALL")
 	print("=================================================================================================")
-	print("Email zero...", emails)  # [b'1 2 3 4']
+	print("Emails...", emails)  # [b'1 2 3 4']
 	print("=================================================================================================")
 	e_list = emails[0].decode('utf-8').split()
 	print("\nEmail ID's... ", e_list)
@@ -45,7 +45,7 @@ with imaplib.IMAP4_SSL(_HOST, port=993) as mail:
 		print(f"\n------------------------------ Email +++ {email_id} +++ Started---------------------------")
 		response_code, mail_data = mail.fetch(email_id, "(RFC822)")
 		print("-------------------------------------------------------------------")
-		print(mail_data)
+		# print(mail_data)
 		print("-------------------------------------------------------------------")
 		message = email.message_from_bytes(mail_data[0][1])
 		print("Message...", message)
