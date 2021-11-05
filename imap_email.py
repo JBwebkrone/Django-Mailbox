@@ -12,7 +12,6 @@ _EMAIL = ""
 _KEY = ""
 _HOST = ""
 
-
 ###############################################################################################################
 
 with imaplib.IMAP4_SSL(_HOST, port=993) as mail:
@@ -78,5 +77,5 @@ with imaplib.IMAP4_SSL(_HOST, port=993) as mail:
 
 
     ####################### Let's pack up, closing ###############################
-    print("\nClosing email... ")
+    print("\nTerminating email initiated... ")
     mail.close()
